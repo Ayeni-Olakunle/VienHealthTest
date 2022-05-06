@@ -25,7 +25,7 @@ const Layout3 = () => {
           <ApexChartLineGraph />
         </div>
       </div>
-      <div className="holdCircle">
+      <div className="holdCircle" style={{ marginRight: 0 }}>
         <div>
           <div className="holdCircleTop">
             <div className="holdCircleTop2">
