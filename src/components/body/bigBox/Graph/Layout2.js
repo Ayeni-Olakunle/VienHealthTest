@@ -33,6 +33,7 @@ export default class ApexChartCircle extends React.Component {
           series={this.state.series}
           type="radialBar"
           height={300}
+          width="100%"
         />
       </div>
     );

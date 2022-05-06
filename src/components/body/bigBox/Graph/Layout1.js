@@ -96,6 +96,7 @@ export default class ApexChart extends React.Component {
           series={this.state.series}
           type="bar"
           height={50}
+          width="100%"
         />
       </div>
     );

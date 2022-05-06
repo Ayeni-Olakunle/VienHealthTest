@@ -20,7 +20,7 @@ export default class ApexChartCircle2 extends React.Component {
           },
         },
         colors: ["#FACF55"],
-        labels: ["Onboarding"],
+        labels: ["User"],
       },
     };
   }
@@ -33,6 +33,7 @@ export default class ApexChartCircle2 extends React.Component {
           series={this.state.series}
           type="radialBar"
           height={300}
+          width="100%"
         />
       </div>
     );

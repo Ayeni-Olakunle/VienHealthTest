@@ -52,6 +52,7 @@ export default class ApexChartLineGraph extends React.Component {
           series={this.state.series}
           type="area"
           height={250}
+          width="100%"
         />
       </div>
     );
