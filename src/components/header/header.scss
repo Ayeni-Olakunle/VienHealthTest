@@ -1,0 +1,36 @@
+.holdHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .headerAddres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+
+    .headerAddres2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 6px;
+      padding: 4px;
+      background: #e8e8e8;
+      border-radius: 6px;
+    }
+    .headerInput {
+      font-size: 16px;
+      border: none;
+      background-color: whitesmoke;
+      outline: none;
+    }
+  }
+  .headerSearch {
+    background: #016450;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    outline: none;
+    padding: 8px 13px;
+    font-size: 15px;
+  }
+}

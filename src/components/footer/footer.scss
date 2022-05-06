@@ -1,0 +1,110 @@
+.holdFoot1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .foot1 {
+    width: 20%;
+    padding: 20px;
+
+    .foot1Text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 180%;
+      color: #767676;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  }
+  .foot2 {
+    width: 20%;
+    .footHead {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 160%;
+      color: #1a1a1a;
+    }
+    .footChild {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 180%;
+      color: #767676;
+      cursor: pointer;
+    }
+  }
+  .foot3 {
+    width: 20%;
+    .footHead {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 160%;
+      color: #1a1a1a;
+    }
+    .footChild {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 180%;
+      color: #767676;
+      cursor: pointer;
+    }
+  }
+  .foot4 {
+    width: 20%;
+    .foot1Text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 180%;
+      color: #767676;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  }
+  .holdIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .faceBook {
+      background: #ffffff;
+      box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.08);
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      color: #016450;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .faceBook2 {
+      background: #016450;
+      box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.08);
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}
+.footLast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #484848;
+}
